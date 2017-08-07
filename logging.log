@@ -1,0 +1,586 @@
+2017-07-30 19:17:28 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:17:29 INFO  Main:22 - Trying open addr:D:\test
+2017-07-30 19:17:29 INFO  Main:28 - list with files correctly created
+2017-07-30 19:17:29 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-30 19:17:29 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-30 19:17:29 INFO  Main:57 - searching: "passed" in file D:\test\1\11\11_f.log
+2017-07-30 19:17:29 INFO  Main:57 - searching: "passed" in file D:\test\1\1_f.log
+2017-07-30 19:17:29 INFO  Main:57 - searching: "passed" in file D:\test\2\2_f.log
+2017-07-30 19:17:29 INFO  Main:57 - searching: "passed" in file D:\test\test_f.log
+2017-07-30 19:17:29 INFO  Class:? - --------------TEST PASSED-----------------------
+2017-07-30 19:19:01 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:19:01 INFO  Main:22 - Trying open addr:D:\test
+2017-07-30 19:19:01 INFO  Main:28 - list with files correctly created
+2017-07-30 19:19:01 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-30 19:19:01 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-30 19:19:01 INFO  Main:57 - searching: "passed" in file D:\test\1\11\11_f.log
+2017-07-30 19:19:01 INFO  Main:61 - finded 1 entry
+2017-07-30 19:19:01 INFO  Main:57 - searching: "passed" in file D:\test\1\1_f.log
+2017-07-30 19:19:01 INFO  Main:61 - finded 1 entry
+2017-07-30 19:19:01 INFO  Main:57 - searching: "passed" in file D:\test\2\2_f.log
+2017-07-30 19:19:01 INFO  Main:61 - finded 0 entry
+2017-07-30 19:19:01 INFO  Main:57 - searching: "passed" in file D:\test\test_f.log
+2017-07-30 19:19:01 INFO  Main:61 - finded 0 entry
+2017-07-30 19:19:01 INFO  Class:? - --------------TEST PASSED-----------------------
+2017-07-30 19:26:50 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:26:50 INFO  Main:22 - Trying open addr:D:\test
+2017-07-30 19:26:50 INFO  Main:28 - list with files correctly created
+2017-07-30 19:27:45 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:27:45 INFO  Main:22 - Trying open addr:D:\test
+2017-07-30 19:27:45 INFO  Main:28 - list with files correctly created
+2017-07-30 19:27:45 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-30 19:27:45 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-30 19:27:45 INFO  Main:57 - searching: "passed" in file D:\test\1\11\11_f.log
+2017-07-30 19:27:45 INFO  Main:61 - finded 1 entry
+2017-07-30 19:27:45 INFO  Main:57 - searching: "passed" in file D:\test\1\1_f.log
+2017-07-30 19:27:45 INFO  Main:61 - finded 1 entry
+2017-07-30 19:27:45 INFO  Main:57 - searching: "passed" in file D:\test\2\2_f.log
+2017-07-30 19:27:45 INFO  Main:61 - finded 0 entry
+2017-07-30 19:27:45 INFO  Main:57 - searching: "passed" in file D:\test\test_f.log
+2017-07-30 19:27:45 INFO  Main:61 - finded 0 entry
+2017-07-30 19:27:45 INFO  Class:? - --------------TEST PASSED-----------------------
+2017-07-30 19:38:57 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:38:57 INFO  Main:22 - Trying open addr:D:\test
+2017-07-30 19:38:57 INFO  Main:28 - list with files correctly created
+2017-07-30 19:38:57 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-30 19:38:57 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-30 19:38:57 INFO  Main:57 - searching: "passed" in file D:\test\1\11\11_f.log
+2017-07-30 19:38:57 INFO  Main:61 - finded 1 entry
+2017-07-30 19:38:57 INFO  Main:57 - searching: "passed" in file D:\test\1\1_f.log
+2017-07-30 19:38:57 INFO  Main:61 - finded 0 entry
+2017-07-30 19:38:57 INFO  Main:57 - searching: "passed" in file D:\test\2\2_f.log
+2017-07-30 19:38:57 INFO  Main:61 - finded 0 entry
+2017-07-30 19:38:57 INFO  Main:57 - searching: "passed" in file D:\test\bigFile.log
+2017-07-30 19:39:55 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:39:55 INFO  Main:22 - Trying open addr:D:\test
+2017-07-30 19:39:55 INFO  Main:28 - list with files correctly created
+2017-07-30 19:39:55 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-30 19:39:55 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-30 19:39:55 INFO  Main:57 - searching: "passed" in file D:\test\1\11\11_f.log
+2017-07-30 19:40:38 INFO  Main:61 - finded 1 entry
+2017-07-30 19:40:38 INFO  Main:57 - searching: "passed" in file D:\test\1\1_f.log
+2017-07-30 19:40:40 INFO  Main:61 - finded 0 entry
+2017-07-30 19:40:40 INFO  Main:57 - searching: "passed" in file D:\test\2\2_f.log
+2017-07-30 19:40:41 INFO  Main:61 - finded 0 entry
+2017-07-30 19:40:42 INFO  Main:57 - searching: "passed" in file D:\test\bigFile.log
+2017-07-30 19:42:03 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:42:03 INFO  Main:24 - Trying open addr:D:\test
+2017-07-30 19:42:03 INFO  Main:30 - list with files correctly created
+2017-07-30 19:42:03 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-30 19:42:03 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-30 19:42:03 INFO  Main:59 - searching: "passed" in file D:\test\1\11\11_f.log
+2017-07-30 19:42:06 INFO  Main:79 - finded 1 entry
+2017-07-30 19:42:07 INFO  Main:59 - searching: "passed" in file D:\test\1\1_f.log
+2017-07-30 19:42:10 INFO  Main:79 - finded 0 entry
+2017-07-30 19:42:11 INFO  Main:59 - searching: "passed" in file D:\test\2\2_f.log
+2017-07-30 19:42:12 INFO  Main:79 - finded 0 entry
+2017-07-30 19:42:14 INFO  Main:59 - searching: "passed" in file D:\test\bigFile.log
+2017-07-30 19:42:31 INFO  Main:79 - finded 0 entry
+2017-07-30 19:42:31 INFO  Main:59 - searching: "passed" in file D:\test\test_f.log
+2017-07-30 19:42:32 INFO  Main:79 - finded 0 entry
+2017-07-30 19:43:21 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:43:21 INFO  Main:24 - Trying open addr:D:\test
+2017-07-30 19:43:21 INFO  Main:30 - list with files correctly created
+2017-07-30 19:43:21 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-30 19:43:21 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-30 19:43:21 INFO  Main:59 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-30 19:43:21 INFO  Main:79 - finded 1 entry
+2017-07-30 19:43:21 INFO  Main:59 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-30 19:43:21 INFO  Main:79 - finded 1 entry
+2017-07-30 19:43:21 INFO  Main:59 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-30 19:43:21 INFO  Main:79 - finded 0 entry
+2017-07-30 19:43:21 INFO  Main:59 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-30 19:43:25 INFO  Main:79 - finded 63536 entry
+2017-07-30 19:43:25 INFO  Main:59 - searching: "Passed" in file D:\test\test_f.log
+2017-07-30 19:43:25 INFO  Main:79 - finded 0 entry
+2017-07-30 19:43:25 INFO  Class:? - --------------TEST PASSED-----------------------
+2017-07-30 19:47:55 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-30 19:47:55 INFO  Main:24 - Trying open addr: D:\test
+2017-07-30 19:47:55 INFO  Main:30 - list with files correctly created
+2017-07-30 19:47:55 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-30 19:47:55 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-30 19:47:55 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-30 19:47:55 INFO  Main:57 - finded 1 entry
+2017-07-30 19:47:55 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-30 19:47:55 INFO  Main:57 - finded 1 entry
+2017-07-30 19:47:55 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-30 19:47:55 INFO  Main:57 - finded 0 entry
+2017-07-30 19:47:55 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-30 19:47:59 INFO  Main:57 - finded 63536 entry
+2017-07-30 19:47:59 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-30 19:47:59 INFO  Main:57 - finded 0 entry
+2017-07-30 19:47:59 INFO  Class:? - --------------TEST PASSED-----------------------
+2017-07-31 21:48:32 INFO  Main:39 - searching: "Passed" in file D:\test\1
+2017-07-31 21:48:32 ERROR Main:55 - Problems while opening: D:\test\1
+java.io.FileNotFoundException: D:\test\1 (Отказано в доступе)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at Main.isFileContains(Main.java:47)
+	at MainForm$CreateChildNodes.createChildren(MainForm.java:71)
+	at MainForm$CreateChildNodes.run(MainForm.java:60)
+	at java.lang.Thread.run(Thread.java:745)
+2017-07-31 21:48:32 INFO  Main:57 - finded 0 entry
+2017-07-31 21:48:32 INFO  Main:39 - searching: "Passed" in file D:\test\2
+2017-07-31 21:48:32 ERROR Main:55 - Problems while opening: D:\test\2
+java.io.FileNotFoundException: D:\test\2 (Отказано в доступе)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at Main.isFileContains(Main.java:47)
+	at MainForm$CreateChildNodes.createChildren(MainForm.java:71)
+	at MainForm$CreateChildNodes.run(MainForm.java:60)
+	at java.lang.Thread.run(Thread.java:745)
+2017-07-31 21:48:32 INFO  Main:57 - finded 0 entry
+2017-07-31 21:48:32 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 21:51:10 INFO  Main:39 - searching: "Passed" in file D:\test\1
+2017-07-31 21:51:10 ERROR Main:55 - Problems while opening: D:\test\1
+java.io.FileNotFoundException: D:\test\1 (Отказано в доступе)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at Main.isFileContains(Main.java:47)
+	at MainForm$CreateChildNodes.createChildren(MainForm.java:72)
+	at MainForm$CreateChildNodes.run(MainForm.java:60)
+	at java.lang.Thread.run(Thread.java:745)
+2017-07-31 21:51:10 INFO  Main:57 - finded 0 entry
+2017-07-31 21:51:10 INFO  Main:39 - searching: "Passed" in file D:\test\1\11
+2017-07-31 21:51:10 ERROR Main:55 - Problems while opening: D:\test\1\11
+java.io.FileNotFoundException: D:\test\1\11 (Отказано в доступе)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at Main.isFileContains(Main.java:47)
+	at MainForm$CreateChildNodes.createChildren(MainForm.java:72)
+	at MainForm$CreateChildNodes.createChildren(MainForm.java:79)
+	at MainForm$CreateChildNodes.run(MainForm.java:60)
+	at java.lang.Thread.run(Thread.java:745)
+2017-07-31 21:51:10 INFO  Main:57 - finded 0 entry
+2017-07-31 21:51:10 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 21:51:10 INFO  Main:57 - finded 1 entry
+2017-07-31 21:51:10 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 21:51:10 INFO  Main:57 - finded 1 entry
+2017-07-31 21:51:10 INFO  Main:39 - searching: "Passed" in file D:\test\2
+2017-07-31 21:51:10 ERROR Main:55 - Problems while opening: D:\test\2
+java.io.FileNotFoundException: D:\test\2 (Отказано в доступе)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at Main.isFileContains(Main.java:47)
+	at MainForm$CreateChildNodes.createChildren(MainForm.java:72)
+	at MainForm$CreateChildNodes.run(MainForm.java:60)
+	at java.lang.Thread.run(Thread.java:745)
+2017-07-31 21:51:10 INFO  Main:57 - finded 0 entry
+2017-07-31 21:51:10 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 21:51:10 INFO  Main:57 - finded 0 entry
+2017-07-31 21:51:10 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 21:57:06 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 21:57:06 INFO  Main:30 - list with files correctly created
+2017-07-31 21:57:06 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 21:57:06 INFO  Main:57 - finded 1 entry
+2017-07-31 21:57:06 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 21:57:06 INFO  Main:57 - finded 1 entry
+2017-07-31 21:57:06 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 21:57:06 INFO  Main:57 - finded 0 entry
+2017-07-31 21:57:06 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 21:57:19 INFO  Main:57 - finded 63536 entry
+2017-07-31 21:57:19 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 21:57:19 INFO  Main:57 - finded 0 entry
+2017-07-31 22:04:39 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:04:39 INFO  Main:30 - list with files correctly created
+2017-07-31 22:04:39 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:04:39 INFO  Main:57 - finded 1 entry
+2017-07-31 22:04:39 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:04:39 INFO  Main:57 - finded 1 entry
+2017-07-31 22:04:39 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:04:39 INFO  Main:57 - finded 0 entry
+2017-07-31 22:04:39 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:04:43 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:04:43 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:04:43 INFO  Main:57 - finded 0 entry
+2017-07-31 22:05:04 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:05:04 INFO  Main:30 - list with files correctly created
+2017-07-31 22:05:04 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:05:04 INFO  Main:57 - finded 1 entry
+2017-07-31 22:05:04 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:05:04 INFO  Main:57 - finded 1 entry
+2017-07-31 22:05:04 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:05:04 INFO  Main:57 - finded 0 entry
+2017-07-31 22:05:04 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:05:08 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:05:08 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:05:08 INFO  Main:57 - finded 0 entry
+2017-07-31 22:09:21 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:09:21 INFO  Main:30 - list with files correctly created
+2017-07-31 22:09:21 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:09:21 INFO  Main:57 - finded 1 entry
+2017-07-31 22:09:21 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:09:21 INFO  Main:57 - finded 1 entry
+2017-07-31 22:09:21 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:09:21 INFO  Main:57 - finded 0 entry
+2017-07-31 22:09:21 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:09:25 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:09:25 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:09:25 INFO  Main:57 - finded 0 entry
+2017-07-31 22:09:35 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:09:35 INFO  Main:30 - list with files correctly created
+2017-07-31 22:09:35 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:09:35 INFO  Main:57 - finded 1 entry
+2017-07-31 22:10:13 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:10:13 INFO  Main:57 - finded 1 entry
+2017-07-31 22:10:13 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:10:13 INFO  Main:57 - finded 0 entry
+2017-07-31 22:10:13 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:10:55 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:10:56 INFO  Main:30 - list with files correctly created
+2017-07-31 22:10:56 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:10:56 INFO  Main:57 - finded 1 entry
+2017-07-31 22:10:56 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:10:56 INFO  Main:57 - finded 1 entry
+2017-07-31 22:10:56 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:10:56 INFO  Main:57 - finded 0 entry
+2017-07-31 22:10:56 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:11:02 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:11:02 INFO  Main:30 - list with files correctly created
+2017-07-31 22:11:02 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:11:02 INFO  Main:57 - finded 1 entry
+2017-07-31 22:11:26 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:11:26 INFO  Main:57 - finded 1 entry
+2017-07-31 22:11:58 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:11:58 INFO  Main:57 - finded 0 entry
+2017-07-31 22:11:58 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:12:03 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:17:17 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:17:17 INFO  Main:30 - list with files correctly created
+2017-07-31 22:17:17 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:17:17 INFO  Main:57 - finded 1 entry
+2017-07-31 22:17:25 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:17:25 INFO  Main:57 - finded 1 entry
+2017-07-31 22:17:39 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:17:39 INFO  Main:57 - finded 0 entry
+2017-07-31 22:17:39 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:17:44 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:17:56 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:17:56 INFO  Main:57 - finded 0 entry
+2017-07-31 22:18:38 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:18:38 INFO  Main:30 - list with files correctly created
+2017-07-31 22:18:40 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:18:40 INFO  Main:57 - finded 1 entry
+2017-07-31 22:18:40 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:18:40 INFO  Main:57 - finded 1 entry
+2017-07-31 22:18:40 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:18:40 INFO  Main:57 - finded 0 entry
+2017-07-31 22:18:40 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:18:44 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:18:44 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:18:44 INFO  Main:57 - finded 0 entry
+2017-07-31 22:19:01 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:19:01 INFO  Main:30 - list with files correctly created
+2017-07-31 22:19:15 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:19:15 INFO  Main:57 - finded 1 entry
+2017-07-31 22:19:40 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:19:40 INFO  Main:57 - finded 1 entry
+2017-07-31 22:19:40 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:19:40 INFO  Main:57 - finded 0 entry
+2017-07-31 22:19:40 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:25:24 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:25:24 INFO  Main:30 - list with files correctly created
+2017-07-31 22:25:24 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:25:24 INFO  Main:57 - finded 1 entry
+2017-07-31 22:25:45 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:25:45 INFO  Main:30 - list with files correctly created
+2017-07-31 22:25:45 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:25:45 INFO  Main:57 - finded 1 entry
+2017-07-31 22:26:23 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:26:23 INFO  Main:30 - list with files correctly created
+2017-07-31 22:26:23 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:26:23 INFO  Main:57 - finded 1 entry
+2017-07-31 22:27:23 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:27:23 INFO  Main:30 - list with files correctly created
+2017-07-31 22:27:23 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:27:23 INFO  Main:57 - finded 1 entry
+2017-07-31 22:28:50 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:28:50 INFO  Main:30 - list with files correctly created
+2017-07-31 22:28:50 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:28:50 INFO  Main:57 - finded 1 entry
+2017-07-31 22:29:11 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:29:11 INFO  Main:57 - finded 1 entry
+2017-07-31 22:29:13 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:29:13 INFO  Main:57 - finded 0 entry
+2017-07-31 22:29:14 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:29:18 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:29:27 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:29:27 INFO  Main:57 - finded 0 entry
+2017-07-31 22:31:45 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:31:45 INFO  Main:30 - list with files correctly created
+2017-07-31 22:31:45 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:31:45 INFO  Main:57 - finded 1 entry
+2017-07-31 22:33:14 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:33:14 INFO  Main:57 - finded 1 entry
+2017-07-31 22:33:14 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:33:14 INFO  Main:57 - finded 0 entry
+2017-07-31 22:33:14 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:33:19 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:33:19 INFO  Main:30 - list with files correctly created
+2017-07-31 22:33:19 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:33:19 INFO  Main:57 - finded 1 entry
+2017-07-31 22:37:43 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:37:43 INFO  Main:57 - finded 1 entry
+2017-07-31 22:38:07 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:38:07 INFO  Main:57 - finded 0 entry
+2017-07-31 22:38:07 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:39:45 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:39:45 INFO  Main:30 - list with files correctly created
+2017-07-31 22:39:45 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:39:45 INFO  Main:57 - finded 1 entry
+2017-07-31 22:40:03 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:40:03 INFO  Main:57 - finded 1 entry
+2017-07-31 22:40:03 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:40:03 INFO  Main:57 - finded 0 entry
+2017-07-31 22:40:03 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:40:12 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:40:13 INFO  Main:30 - list with files correctly created
+2017-07-31 22:40:13 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:40:13 INFO  Main:57 - finded 1 entry
+2017-07-31 22:40:31 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:40:31 INFO  Main:57 - finded 1 entry
+2017-07-31 22:40:31 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:40:31 INFO  Main:57 - finded 0 entry
+2017-07-31 22:40:31 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:40:33 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:40:33 INFO  Main:30 - list with files correctly created
+2017-07-31 22:40:33 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:40:33 INFO  Main:57 - finded 1 entry
+2017-07-31 22:40:55 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:40:55 INFO  Main:57 - finded 1 entry
+2017-07-31 22:40:55 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:40:55 INFO  Main:57 - finded 0 entry
+2017-07-31 22:40:55 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:40:57 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:40:57 INFO  Main:30 - list with files correctly created
+2017-07-31 22:40:57 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:40:57 INFO  Main:57 - finded 1 entry
+2017-07-31 22:41:34 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:41:34 INFO  Main:57 - finded 1 entry
+2017-07-31 22:41:34 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:41:34 INFO  Main:57 - finded 0 entry
+2017-07-31 22:41:34 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:41:36 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:41:36 INFO  Main:30 - list with files correctly created
+2017-07-31 22:41:36 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:41:36 INFO  Main:57 - finded 1 entry
+2017-07-31 22:41:58 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:41:58 INFO  Main:57 - finded 1 entry
+2017-07-31 22:41:58 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:41:58 INFO  Main:57 - finded 0 entry
+2017-07-31 22:41:58 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:42:00 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:42:00 INFO  Main:30 - list with files correctly created
+2017-07-31 22:42:00 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:42:00 INFO  Main:57 - finded 1 entry
+2017-07-31 22:42:14 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:42:14 INFO  Main:57 - finded 1 entry
+2017-07-31 22:42:14 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:42:14 INFO  Main:57 - finded 0 entry
+2017-07-31 22:42:14 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:42:16 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:42:16 INFO  Main:30 - list with files correctly created
+2017-07-31 22:42:16 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:42:16 INFO  Main:57 - finded 1 entry
+2017-07-31 22:44:59 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:44:59 INFO  Main:57 - finded 1 entry
+2017-07-31 22:44:59 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:44:59 INFO  Main:57 - finded 0 entry
+2017-07-31 22:44:59 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:45:01 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:45:01 INFO  Main:30 - list with files correctly created
+2017-07-31 22:45:01 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:45:01 INFO  Main:57 - finded 1 entry
+2017-07-31 22:45:15 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:45:15 INFO  Main:30 - list with files correctly created
+2017-07-31 22:45:15 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:45:15 INFO  Main:57 - finded 1 entry
+2017-07-31 22:46:23 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:46:23 INFO  Main:57 - finded 1 entry
+2017-07-31 22:46:23 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:46:23 INFO  Main:57 - finded 0 entry
+2017-07-31 22:46:23 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:46:26 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:46:26 INFO  Main:30 - list with files correctly created
+2017-07-31 22:46:26 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:46:26 INFO  Main:57 - finded 1 entry
+2017-07-31 22:46:52 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:46:52 INFO  Main:57 - finded 1 entry
+2017-07-31 22:46:52 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:46:52 INFO  Main:57 - finded 0 entry
+2017-07-31 22:46:52 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:49:07 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:49:07 INFO  Main:30 - list with files correctly created
+2017-07-31 22:49:07 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:49:07 INFO  Main:57 - finded 1 entry
+2017-07-31 22:49:07 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:49:07 INFO  Main:57 - finded 1 entry
+2017-07-31 22:49:07 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:49:07 INFO  Main:57 - finded 0 entry
+2017-07-31 22:49:07 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:49:11 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:49:11 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:49:11 INFO  Main:57 - finded 0 entry
+2017-07-31 22:49:55 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:49:55 INFO  Main:30 - list with files correctly created
+2017-07-31 22:49:55 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:49:55 INFO  Main:57 - finded 1 entry
+2017-07-31 22:49:55 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:49:55 INFO  Main:57 - finded 1 entry
+2017-07-31 22:49:55 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:49:55 INFO  Main:57 - finded 0 entry
+2017-07-31 22:49:55 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:49:59 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:49:59 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:49:59 INFO  Main:57 - finded 0 entry
+2017-07-31 22:51:24 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-31 22:51:24 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:51:24 INFO  Main:30 - list with files correctly created
+2017-07-31 22:51:24 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-31 22:51:24 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-31 22:51:24 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:51:24 INFO  Main:57 - finded 1 entry
+2017-07-31 22:51:24 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:51:24 INFO  Main:57 - finded 1 entry
+2017-07-31 22:51:24 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:51:24 INFO  Main:57 - finded 0 entry
+2017-07-31 22:51:24 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:51:28 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:51:28 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:51:28 INFO  Main:57 - finded 0 entry
+2017-07-31 22:51:28 INFO  Class:? - --------------TEST PASSED-----------------------
+2017-07-31 22:53:24 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 22:53:24 INFO  Main:30 - list with files correctly created
+2017-07-31 22:53:24 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 22:53:24 INFO  Main:57 - finded 1 entry
+2017-07-31 22:53:24 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 22:53:24 INFO  Main:57 - finded 1 entry
+2017-07-31 22:53:24 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 22:53:24 INFO  Main:57 - finded 0 entry
+2017-07-31 22:53:24 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 22:53:29 INFO  Main:57 - finded 63536 entry
+2017-07-31 22:53:29 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 22:53:29 INFO  Main:57 - finded 0 entry
+2017-07-31 23:08:30 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 23:08:30 INFO  Main:30 - list with files correctly created
+2017-07-31 23:08:30 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 23:08:30 INFO  Main:57 - finded 1 entry
+2017-07-31 23:08:36 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 23:08:36 INFO  Main:57 - finded 1 entry
+2017-07-31 23:12:23 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 23:12:23 INFO  Main:57 - finded 0 entry
+2017-07-31 23:12:24 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 23:12:26 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 23:12:26 INFO  Main:30 - list with files correctly created
+2017-07-31 23:12:26 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 23:12:26 INFO  Main:57 - finded 1 entry
+2017-07-31 23:12:38 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 23:12:38 INFO  Main:57 - finded 1 entry
+2017-07-31 23:12:45 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 23:12:45 INFO  Main:57 - finded 0 entry
+2017-07-31 23:12:45 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 23:12:51 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 23:12:51 INFO  Main:30 - list with files correctly created
+2017-07-31 23:12:51 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 23:12:51 INFO  Main:57 - finded 1 entry
+2017-07-31 23:12:56 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 23:12:56 INFO  Main:57 - finded 1 entry
+2017-07-31 23:13:26 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 23:13:26 INFO  Main:57 - finded 0 entry
+2017-07-31 23:13:26 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 23:14:00 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 23:14:00 INFO  Main:30 - list with files correctly created
+2017-07-31 23:14:00 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 23:14:00 INFO  Main:57 - finded 1 entry
+2017-07-31 23:14:13 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 23:14:13 INFO  Main:57 - finded 1 entry
+2017-07-31 23:14:22 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 23:14:22 INFO  Main:57 - finded 0 entry
+2017-07-31 23:14:22 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 23:15:34 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 23:15:35 INFO  Main:30 - list with files correctly created
+2017-07-31 23:15:35 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 23:15:35 INFO  Main:57 - finded 1 entry
+2017-07-31 23:15:59 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 23:15:59 INFO  Main:57 - finded 1 entry
+2017-07-31 23:16:17 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 23:16:17 INFO  Main:57 - finded 0 entry
+2017-07-31 23:16:17 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 23:18:04 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 23:18:04 INFO  Main:30 - list with files correctly created
+2017-07-31 23:18:04 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 23:18:04 INFO  Main:57 - finded 1 entry
+2017-07-31 23:18:04 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 23:18:04 INFO  Main:57 - finded 1 entry
+2017-07-31 23:18:04 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 23:18:04 INFO  Main:57 - finded 0 entry
+2017-07-31 23:18:04 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 23:18:14 INFO  Main:57 - finded 63536 entry
+2017-07-31 23:18:14 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 23:18:14 INFO  Main:57 - finded 0 entry
+2017-07-31 23:18:31 INFO  Class:? - --------------RUNNING TEST: check getFiles() func-----------------------
+2017-07-31 23:18:31 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 23:18:31 INFO  Main:30 - list with files correctly created
+2017-07-31 23:18:31 INFO  Class:? - --------------TEST PASSED-----------------------
+
+2017-07-31 23:18:31 INFO  Class:? - --------------RUNNING TEST: check isFileContains() func-----------------------
+2017-07-31 23:18:31 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 23:18:31 INFO  Main:57 - finded 1 entry
+2017-07-31 23:18:31 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 23:18:31 INFO  Main:57 - finded 1 entry
+2017-07-31 23:18:31 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 23:18:31 INFO  Main:57 - finded 0 entry
+2017-07-31 23:18:31 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 23:18:35 INFO  Main:57 - finded 63536 entry
+2017-07-31 23:18:35 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 23:18:35 INFO  Main:57 - finded 0 entry
+2017-07-31 23:18:35 INFO  Class:? - --------------TEST PASSED-----------------------
+2017-07-31 23:18:41 INFO  Main:24 - Trying open addr: D:\test
+2017-07-31 23:18:41 INFO  Main:30 - list with files correctly created
+2017-07-31 23:18:41 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-07-31 23:18:41 INFO  Main:57 - finded 1 entry
+2017-07-31 23:18:41 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-07-31 23:18:41 INFO  Main:57 - finded 1 entry
+2017-07-31 23:18:41 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-07-31 23:18:41 INFO  Main:57 - finded 0 entry
+2017-07-31 23:18:41 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-07-31 23:18:45 INFO  Main:57 - finded 63536 entry
+2017-07-31 23:18:45 INFO  Main:39 - searching: "Passed" in file D:\test\test_f.log
+2017-07-31 23:18:45 INFO  Main:57 - finded 0 entry
+2017-08-07 21:51:59 INFO  Main:24 - Trying open addr: D:\test
+2017-08-07 21:51:59 INFO  Main:30 - list with files correctly created
+2017-08-07 21:51:59 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-08-07 21:51:59 INFO  Main:57 - finded 1 entry
+2017-08-07 21:51:59 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-08-07 21:51:59 INFO  Main:57 - finded 1 entry
+2017-08-07 21:51:59 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-08-07 21:51:59 INFO  Main:57 - finded 0 entry
+2017-08-07 21:51:59 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
+2017-08-07 21:52:24 INFO  Main:24 - Trying open addr: D:\test
+2017-08-07 21:52:24 INFO  Main:30 - list with files correctly created
+2017-08-07 21:52:24 INFO  Main:39 - searching: "Passed" in file D:\test\1\11\11_f.log
+2017-08-07 21:52:24 INFO  Main:57 - finded 1 entry
+2017-08-07 21:52:24 INFO  Main:39 - searching: "Passed" in file D:\test\1\1_f.log
+2017-08-07 21:52:24 INFO  Main:57 - finded 1 entry
+2017-08-07 21:52:24 INFO  Main:39 - searching: "Passed" in file D:\test\2\2_f.log
+2017-08-07 21:52:24 INFO  Main:57 - finded 0 entry
+2017-08-07 21:52:24 INFO  Main:39 - searching: "Passed" in file D:\test\bigFile.log
