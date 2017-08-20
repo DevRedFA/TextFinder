@@ -1,0 +1,206 @@
+import javax.swing.*;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.TreeModel;
+import java.awt.*;
+import java.io.File;
+import java.util.Observable;
+import java.util.Observer;
+
+/**
+ * Created by Ivan on 30.07.2017.
+ */
+public class View extends JFrame implements Observer {
+    //    private DefaultMutableTreeNode root;
+//    private DefaultTreeModel treeModel;
+    private File file;
+    private JTree tree;
+    private JButton findButton;
+    private JTextField formatToFindField;
+    private JTextField textToFindField;
+    private JButton previousButton;
+    private JButton nextButton;
+    private JButton chooseDir;
+    private JPanel rootPanel;
+    private JTabbedPane tabbedPane;
+    private JButton openFileButton;
+
+
+//    public void createTree() {
+//        DefaultMutableTreeNode top =
+//                new DefaultMutableTreeNode("The Java Series");
+//
+//    }
+
+
+    void addtabbedPane(String name, String text, int i, Controller controller) {
+        JComponent panel1 = makeTextPanel(text);
+        tabbedPane.addTab(name, null, panel1,
+                null);
+        tabbedPane.setTabComponentAt(i,
+                new ButtonTabComponent(tabbedPane, controller));
+
+    }
+
+    protected JComponent makeTextPanel(String text) {
+        JPanel panel = new JPanel(false);
+        JLabel filler = new JLabel(text);
+        filler.setHorizontalAlignment(JLabel.TOP);
+        filler.setVerticalAlignment(JLabel.LEFT);
+        panel.setLayout(new GridLayout(1, 1));
+        panel.add(filler);
+        return panel;
+    }
+
+
+    void addController(Controller controller) {
+//        findButton.addActionListener(controller.new StartFindActivity());
+        nextButton.addActionListener(controller.new NextActivity());
+        previousButton.addActionListener(controller.new PreviousActivity());
+        chooseDir.addActionListener(controller.new FileChooserListener());
+        tree.addTreeSelectionListener(controller.new TreeSelectionCheck());
+
+//        openFileButton.addActionListener(controller.new OpenFileActivity());
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+
+        tree.setModel((TreeModel) arg);
+    }
+
+    File chooseFile() {
+        JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setDialogTitle("Выбор директории");
+        // Определение режима - только каталог
+        fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        int result = fileChooser.showOpenDialog(null);
+        if (result == JFileChooser.APPROVE_OPTION)
+            file = fileChooser.getSelectedFile();
+        return file;
+    }
+
+//    public class ChooseFile implements ActionListener {
+//        public void actionPerformed(ActionEvent e) {
+//            fileChooser = new JFileChooser();
+//            fileChooser.setDialogTitle("Выбор директории");
+//            // Определение режима - только каталог
+//            fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+//            int result = fileChooser.showOpenDialog(null);
+//            if (result == JFileChooser.APPROVE_OPTION)
+//                file = fileChooser.getSelectedFile();
+//        }
+//    }
+
+//    private void initTabComponent(int i) {
+//        tabbedPane.setTabComponentAt(i,
+//                new ButtonTabComponent(tabbedPane));
+//    }
+
+
+    View() {
+        setContentPane(rootPanel);
+        setVisible(true);
+        tabbedPane.removeAll();
+        tabbedPane.setTabLayoutPolicy(JTabbedPane.WRAP_TAB_LAYOUT);
+//        tabbedPane.setTabLayoutPolicy(JTabbedPane.SCROLL_TAB_LAYOUT);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setSize(640, 480);
+    }
+
+//    @Override
+
+//
+//        File fileRoot = new File("D:\\test");
+//        root = new DefaultMutableTreeNode(new View.FileNode(fileRoot));
+//        treeModel = new DefaultTreeModel(root);
+//
+//        tree = new JTree(treeModel);
+//        tree.setShowsRootHandles(true);
+//        JScrollPane scrollPane = new JScrollPane(tree);
+//
+//        frame.add(scrollPane);
+//        frame.setLocationByPlatform(true);
+//        frame.setSize(640, 480);
+//        frame.setVisible(true);
+//
+//        View.CreateChildNodes ccn =
+//                new View.CreateChildNodes(fileRoot, root);
+//        new Thread(ccn).start();
+//    }
+
+
+    int getTabbedPaneSelIndex() {
+        return tabbedPane.getSelectedIndex();
+    }
+
+    File getSelectedNode() {
+        DefaultMutableTreeNode node = ((DefaultMutableTreeNode) tree.getLastSelectedPathComponent());
+        return ((Model.FindResultNode) node.getUserObject()).getFile();
+    }
+
+    File getAddr() {
+        return file;
+    }
+
+    String getFileFormat() {
+        return formatToFindField.getText();
+    }
+
+    String getDataToSearch() {
+        return textToFindField.getText();
+    }
+
+    {
+// GUI initializer generated by IntelliJ IDEA GUI Designer
+// >>> IMPORTANT!! <<<
+// DO NOT EDIT OR ADD ANY CODE HERE!
+        $$$setupUI$$$();
+    }
+
+    /**
+     * Method generated by IntelliJ IDEA GUI Designer
+     * >>> IMPORTANT!! <<<
+     * DO NOT edit this method OR call it in your code!
+     *
+     * @noinspection ALL
+     */
+    private void $$$setupUI$$$() {
+        rootPanel = new JPanel();
+        rootPanel.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(4, 3, new Insets(0, 0, 0, 0), -1, -1));
+        tree = new JTree();
+        rootPanel.add(tree, new com.intellij.uiDesigner.core.GridConstraints(1, 0, 3, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
+        textToFindField = new JTextField();
+        textToFindField.setText("Passed");
+        rootPanel.add(textToFindField, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1), null, 0, false));
+        chooseDir = new JButton();
+        chooseDir.setText("Choose dir");
+        rootPanel.add(chooseDir, new com.intellij.uiDesigner.core.GridConstraints(0, 2, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        tabbedPane = new JTabbedPane();
+        rootPanel.add(tabbedPane, new com.intellij.uiDesigner.core.GridConstraints(1, 1, 1, 2, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, null, new Dimension(200, 200), null, 0, false));
+        final JPanel panel1 = new JPanel();
+        panel1.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(1, 1, new Insets(0, 0, 0, 0), -1, -1));
+        tabbedPane.addTab("Untitled", panel1);
+        formatToFindField = new JTextField();
+        formatToFindField.setText(".log");
+        rootPanel.add(formatToFindField, new com.intellij.uiDesigner.core.GridConstraints(0, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(150, -1), null, 0, false));
+        nextButton = new JButton();
+        nextButton.setText("Next");
+        rootPanel.add(nextButton, new com.intellij.uiDesigner.core.GridConstraints(2, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        previousButton = new JButton();
+        previousButton.setText("Previous");
+        rootPanel.add(previousButton, new com.intellij.uiDesigner.core.GridConstraints(2, 2, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+    }
+
+    /**
+     * @noinspection ALL
+     */
+    public JComponent $$$getRootComponent$$$() {
+        return rootPanel;
+    }
+}
+
+
+
+
+
+
